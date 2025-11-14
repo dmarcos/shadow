@@ -3,7 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shadow of the Czar by James C. Kane</title>
+    <title>The Shadow of the Czar by James C. Kane</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="The Shadow of the Czar by James C. Kane"
+    />
+    <meta
+      property="og:description"
+      content="Play as hard-boiled detective Cliff Cole in this action-packed, jazz-infused, film noir-style whodunit..."
+    />
+    <meta property="og:image" content="/images/preview.jpg" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="The Shadow of the Czar by James C. Kane"
+    />
+    <meta
+      name="twitter:description"
+      content="Play as hard-boiled detective Cliff Cole in this action-packed, jazz-infused, film noir-style whodunit..."
+    />
+    <meta name="twitter:image" content="/images/preview.jpg" />
     <link
       rel="icon"
       type="image/svg+xml"
@@ -23,10 +45,25 @@
       gtag("config", "G-7GXLMFXBJV");
     </script>
     <style>
-      body {
+      html, body {
         margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100dvh; /* Use dynamic viewport height for iOS */
+        min-height: 100vh; /* Fallback for browsers that don't support dvh */
         background-color: #000000;
         overflow: hidden;
+        position: fixed;
+      }
+      canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100dvh; /* Use dynamic viewport height for iOS */
+        min-height: 100vh; /* Fallback for browsers that don't support dvh */
+        touch-action: none;
       }
       .font-preload {
         position: absolute;
@@ -34,9 +71,9 @@
         font-family: "PXCountryTypewriter", "LePorsche";
       }
     </style>
-    <script type="module" crossorigin src="/assets/index-C7tKhyx7.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/index-XYoOAQ19.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-LYB0_r4X.css">
+    <script type="module" crossorigin src="/assets/index-DYTq6J8H.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/index-DbTBEItr.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CXg76_3O.css">
   </head>
 
   <body>

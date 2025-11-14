@@ -1,5 +1,5 @@
-import { e as s, x as t, d as a, __tla as __tla_0 } from "./index-XYoOAQ19.js";
-import { d as o, __tla as __tla_1 } from "./index-C7tKhyx7.js";
+import { e as s, K as t, d as a, __tla as __tla_0 } from "./index-DbTBEItr.js";
+import { d as o, __tla as __tla_1 } from "./index-DYTq6J8H.js";
 let g, l, d;
 let __tla = Promise.all([
   (() => {
@@ -104,7 +104,7 @@ let __tla = Promise.all([
           dialog: o.dialogChoice2Empath
         },
         {
-          text: "I can't say who's responsible yet...",
+          text: "Can't say who's responsible yet...",
           responseType: t.PSYCHOLOGIST,
           dialog: o.dialogChoice2Psychologist
         },
